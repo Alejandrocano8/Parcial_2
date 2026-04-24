@@ -155,3 +155,110 @@ body {
 .btn-secondary:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
+
+/* Purple Section */
+.purple-section {
+    background-color: #6d61a3;
+    padding: 60px 40px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #e5cd6c;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content {
+    padding: 25px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.card-content h3 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #111;
+}
+
+.card-content p {
+    font-size: 12px;
+    line-height: 1.4;
+    margin-bottom: 25px;
+    color: #111;
+}
+
+.card-link {
+    text-decoration: underline;
+    font-size: 11px;
+    font-weight: 700;
+    color: #111;
+    margin-top: auto;
+}
+
+/* Explore Section */
+.explore-section {
+    background-color: #0b4a53;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.explore-title {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.explore-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.explore-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.explore-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.explore-card p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    max-width: 90%;
+}
+
+.explore-link {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 12px;
+    font-weight: 700;
+}
